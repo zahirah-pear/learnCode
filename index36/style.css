@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+}
+#box{
+    width: 250px;
+    height: 250px;
+    background-color: hsl(0, 86%, 52%);
+    font-size: 13em;
+    text-align: center;
+    animation-name: glow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+/*      opacity: 0; /*  opacity = 0 artinya hidden
+*/
+#box:hover{
+    animation-name: glow;
+    animation-duration: 2s;
+}
+@keyframes slidebawah{
+    from{transform: scale(0.5)}
+}
+@keyframes slideleft{
+    to{transform: translateX(100px)}
+}
+@keyframes slideleft1{
+    from{transform: translateX(100px)}
+}
+@keyframes rotate{
+    70%{transform: rotateX(120deg)}
+    /*  % untuk balik lagi
+        to untuk kebalikannya from
+    */
+}
+@keyframes fadeIn{
+    100%{opacity: 1}
+}
+@keyframes colorChange{
+    0%{background-color: hsl(0, 100%, 50%)}
+    20%{background-color: hsl(69, 100%, 50%)}
+    40%{background-color: hsl(120, 100%, 50%)}
+    60%{background-color: hsl(332, 100%, 50%)}
+    80%{background-color: hsl(284, 100%, 50%)}
+    100%{background-color: hsl(39, 100%, 50%)}
+}
+@keyframes glow{
+    50%{box-shadow: 0px 0px 50px rgb(244, 195, 49)}
+}
