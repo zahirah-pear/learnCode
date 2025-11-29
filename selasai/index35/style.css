@@ -1,0 +1,41 @@
+.box{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13em;
+    text-align: center;
+    transform: translateX(100px) rotateZ(45deg) skew(50deg, 70deg);
+}
+#box1{
+    background-color: hsl(85, 79%, 43%);
+    /*  transform: translateX(50px);         -- ke kanan 50px yg masuk ke dalam id
+        transform: translateX(-250px);       -- ke kiri 250px yg masuk ke dalam id
+        transform: translateY(50px);         -- ke bawah 50px
+        transform: translateY(-250px);       -- ke atas 250px
+        transform: translate(10px, 100px);
+        
+        
+        transform: rotateX(...deg)
+        transform: rotateY(...deg)
+        transform: rotateZ(...deg)
+
+        transform: scaleX(-1) BISA + ATAU - //kepenyetannya
+        transform: scaleY(0.5) BISA + ATAU - 
+        transform: scale(X axis, Y axis)
+
+        transform: skew(....deg, ....deg)
+        kalau X axis kanannya ketarik
+        kalau Y axis kirinya ketarik
+        */
+}
+#box2{
+    background-color: hsl(5, 79%, 43%);
+}
+#box3{
+    background-color: hsl(230, 79%, 43%);
+}
+img{
+    width:10em;
+    height: 10em;
+    transform: translateX(100%) rotateZ(180deg) scaleX(2);
+}

@@ -1,0 +1,18 @@
+body{
+    margin: 0px;
+}
+.box{
+    border: 5px solid;
+    font-size: 3em;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+#box1{
+    background-color: aqua;
+    margin-inline-start: auto;
+}
+#box2{
+    background-color: rgb(255, 0, 0);
+    margin-left: 30px;
+}

@@ -1,0 +1,28 @@
+h1::first-letter{
+    font-size: 20px;
+    font-style: italic;
+}
+p::first-line{
+    background-color: aquamarine;
+}
+p::selection{
+    color: white;
+    background-color: blueviolet ;
+}
+#fruit li::before{
+    content: "😶‍🌫️😶‍🌫️"
+}
+#apple::after{
+    content: "🤯🤯";
+}
+#orange::after{
+    content: "🫡🫡";
+}
+#banana::after{
+    content: "😩😩";
+}
+#fruit li::marker{
+    content:"©️";
+    color: rgb(53, 29, 114);
+    font-size: 1,3 em
+}

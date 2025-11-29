@@ -1,0 +1,20 @@
+.box{
+    border: 5px solid;
+    font-size: 3em;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color:aquamarine
+}
+#img1{
+    float: right;
+    margin-right: 10px;
+}
+#box1{
+    float: left;
+    margin: 10px;
+}
+body{
+    float: left;
+    border:3px solid;
+}

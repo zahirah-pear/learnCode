@@ -1,0 +1,6 @@
+div{
+    border: 2px solid;
+    height: 40px;
+    overflow: clip;
+    overflow-clip-margin: 42px;
+}
